@@ -304,6 +304,14 @@ footer .bb .bb4 i:hover {
   color: #7E8492;
 }
 
+@media (max-width: 1270px) {
+  header .our .line {
+    display: none;
+  }
+  header .our p {
+    margin-left: 0px;
+  }
+}
 @media (max-width: 1200px) {
   .cards .rasm {
     flex-direction: column;
@@ -327,10 +335,40 @@ footer .bb .bb4 i:hover {
     text-align: center;
     margin-bottom: 20px;
   }
+  header .our p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  header h1 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 1020px) {
+  .cards .meet {
+    width: 100%;
+    font-size: 35px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 1016px) {
+  header .our p {
+    width: 100%;
+  }
 }
 @media (max-width: 978px) {
   .imgs .imgs1 p {
     width: 350px;
+  }
+  .cards .bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cards .bottom div {
+    width: 90%;
+    margin: auto;
   }
 }
 @media (max-width: 858px) {
@@ -380,6 +418,9 @@ footer .bb .bb4 i:hover {
   nav .button {
     display: none;
   }
+  footer .top {
+    flex-direction: column;
+  }
 }
 @media (max-width: 700px) {
   .cards .rasm {
@@ -388,11 +429,60 @@ footer .bb .bb4 i:hover {
     margin: auto;
   }
 }
+@media (max-width: 600px) {
+  .top div .ppp {
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .top div h1 {
+    font-size: 30px;
+  }
+  .text .p1 {
+    font-size: 30px;
+    line-height: 25px;
+    width: 100%;
+  }
+  .text .p2 {
+    font-size: 20px;
+    line-height: 25px;
+    width: 100%;
+    font-weight: 400;
+  }
+}
+@media (max-width: 570px) {
+  .cards .to {
+    width: 100%;
+    margin: auto;
+  }
+  .imgs .imgs1 div .p1 {
+    width: 100%;
+    line-height: 25px;
+    text-align: center;
+  }
+  .imgs .imgs1 div .p2 {
+    width: 100%;
+    text-align: center;
+  }
+}
 @media (max-width: 500px) {
   .cards .rasm {
     flex-direction: column;
     width: 80%;
     margin: auto;
+  }
+  .cards .bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cards .bottom div {
+    width: 90%;
+    margin: auto;
+  }
+  .cards .bottom div h2 {
+    font-size: 30px;
+    line-height: 30px;
   }
 }
 @media (max-width: 420px) {
