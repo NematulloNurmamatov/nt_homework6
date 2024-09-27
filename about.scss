@@ -526,7 +526,7 @@ footer {
             flex-direction: column;
             text-align: center;
             background: #1D1E25;
-            color: white;
+            color: white !important;
             gap: 0;
             overflow: hidden;
 
@@ -536,7 +536,7 @@ footer {
                 padding-top: 10px;
 
                 a {
-                    color: #fff;
+                    color: #fff !important;
                 }
 
             }

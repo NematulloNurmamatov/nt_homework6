@@ -412,7 +412,7 @@ footer .bb .bb4 i:hover {
     flex-direction: column;
     text-align: center;
     background: #1D1E25;
-    color: white;
+    color: white !important;
     gap: 0;
     overflow: hidden;
   }
@@ -422,7 +422,7 @@ footer .bb .bb4 i:hover {
     padding-top: 10px;
   }
   nav ul li a {
-    color: #fff;
+    color: #fff !important;
   }
   nav button {
     color: white;
