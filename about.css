@@ -304,6 +304,28 @@ footer .bb .bb4 i:hover {
   color: #7E8492;
 }
 
+@media (max-width: 1000px) {
+  footer .bb {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  footer .bb .bb2 {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  footer .bb .bb2 .bb3 {
+    width: 100%;
+    justify-content: center;
+  }
+  footer .bb .bb2 .bb4 {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
 @media (max-width: 1270px) {
   header .our .line {
     display: none;
@@ -456,6 +478,10 @@ footer .bb .bb4 i:hover {
     width: 100%;
     margin: auto;
   }
+  .imgs .imgs1 {
+    width: 90%;
+    margin: auto;
+  }
   .imgs .imgs1 div .p1 {
     width: 100%;
     line-height: 25px;
@@ -464,6 +490,9 @@ footer .bb .bb4 i:hover {
   .imgs .imgs1 div .p2 {
     width: 100%;
     text-align: center;
+  }
+  header .our {
+    flex-direction: column;
   }
 }
 @media (max-width: 500px) {

@@ -366,6 +366,30 @@ footer {
 
 
 
+@media (max-width:1000px) {
+footer {
+    .bb {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        .bb2 {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 20px;
+            .bb3 {
+                width: 100%;
+                justify-content: center;
+            }
+            .bb4 {
+                width: 100%;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+}
 
 
 @media (max-width:1270px) {
@@ -440,8 +464,6 @@ footer {
             line-height: 30px;
         }
     }
-
-    header {}
 }
 
 @media (max-width:1016px) {
@@ -601,6 +623,8 @@ footer {
 
     .imgs {
         .imgs1 {
+            width: 90%;
+            margin: auto;
             div {
                 .p1 {
                     width: 100%;
@@ -612,6 +636,12 @@ footer {
                     text-align: center;
                 }
             }
+        }
+    }
+
+    header {
+        .our {
+            flex-direction: column;
         }
     }
 }
